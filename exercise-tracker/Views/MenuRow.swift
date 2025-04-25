@@ -42,3 +42,7 @@ struct MenuRow: View {
         )
     }
 }
+
+#Preview {
+    ContentView()
+}

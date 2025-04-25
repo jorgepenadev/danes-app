@@ -17,3 +17,4 @@ enum MenuData {
         MenuItem(title: "Overhead Press", icon: "person.fill", color: .purple, weight: 135)
     ]
 }
+

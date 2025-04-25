@@ -7,14 +7,10 @@ struct EditWeightSheet: View {
 
     var body: some View {
         VStack(spacing: 24) {
-            Text("Edit \(item.title) Weight")
+            Text("Max \(item.title) Weight: \(inputWeight)")
                 .font(.title2)
                 .fontWeight(.bold)
 
-            TextField("Enter weight", text: $inputWeight)
-                .keyboardType(.decimalPad)
-                .textFieldStyle(.roundedBorder)
-                .padding(.horizontal)
 
             VStack {
                 Text("Quick Percentages")
@@ -60,4 +56,9 @@ struct EditWeightSheet: View {
         }
         .presentationDetents([.medium, .large])
     }
+}
+
+
+#Preview {
+    ContentView()
 }

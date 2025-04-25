@@ -23,7 +23,7 @@ struct ExerciseDetailScreen: View {
             .padding()
 
             List {
-                ForEach(store.getRecords(for: title)) { record in
+                ForEach(store.getRecords(for: title).sorted(by: { $0.date > $1.date})) { record in
                     HStack {
                         VStack(alignment: .leading) {
                             Text("\(record.value) lbs")
@@ -44,4 +44,8 @@ struct ExerciseDetailScreen: View {
         }
         .navigationTitle(title)
     }
+}
+
+#Preview {
+    ContentView()
 }

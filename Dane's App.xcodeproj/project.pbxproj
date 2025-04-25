@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B86751242DB30335001F4929 /* exercise-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exercise-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B86751322DB30336001F4929 /* exercise-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exercise-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B867513C2DB30336001F4929 /* exercise-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exercise-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86751242DB30335001F4929 /* Dane's App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dane's App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86751322DB30336001F4929 /* Dane's AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dane's AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B867513C2DB30336001F4929 /* Dane's AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dane's AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		B86751252DB30335001F4929 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B86751242DB30335001F4929 /* exercise-tracker.app */,
-				B86751322DB30336001F4929 /* exercise-trackerTests.xctest */,
-				B867513C2DB30336001F4929 /* exercise-trackerUITests.xctest */,
+				B86751242DB30335001F4929 /* Dane's App.app */,
+				B86751322DB30336001F4929 /* Dane's AppTests.xctest */,
+				B867513C2DB30336001F4929 /* Dane's AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B86751232DB30335001F4929 /* exercise-tracker */ = {
+		B86751232DB30335001F4929 /* Dane's App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B86751462DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-tracker" */;
+			buildConfigurationList = B86751462DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's App" */;
 			buildPhases = (
 				B86751202DB30335001F4929 /* Sources */,
 				B86751212DB30335001F4929 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				B86751262DB30335001F4929 /* exercise-tracker */,
 			);
-			name = "exercise-tracker";
+			name = "Dane's App";
 			packageProductDependencies = (
 			);
 			productName = "exercise-tracker";
-			productReference = B86751242DB30335001F4929 /* exercise-tracker.app */;
+			productReference = B86751242DB30335001F4929 /* Dane's App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B86751312DB30336001F4929 /* exercise-trackerTests */ = {
+		B86751312DB30336001F4929 /* Dane's AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B86751492DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-trackerTests" */;
+			buildConfigurationList = B86751492DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's AppTests" */;
 			buildPhases = (
 				B867512E2DB30336001F4929 /* Sources */,
 				B867512F2DB30336001F4929 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				B86751352DB30336001F4929 /* exercise-trackerTests */,
 			);
-			name = "exercise-trackerTests";
+			name = "Dane's AppTests";
 			packageProductDependencies = (
 			);
 			productName = "exercise-trackerTests";
-			productReference = B86751322DB30336001F4929 /* exercise-trackerTests.xctest */;
+			productReference = B86751322DB30336001F4929 /* Dane's AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B867513B2DB30336001F4929 /* exercise-trackerUITests */ = {
+		B867513B2DB30336001F4929 /* Dane's AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B867514C2DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-trackerUITests" */;
+			buildConfigurationList = B867514C2DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's AppUITests" */;
 			buildPhases = (
 				B86751382DB30336001F4929 /* Sources */,
 				B86751392DB30336001F4929 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				B867513F2DB30336001F4929 /* exercise-trackerUITests */,
 			);
-			name = "exercise-trackerUITests";
+			name = "Dane's AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "exercise-trackerUITests";
-			productReference = B867513C2DB30336001F4929 /* exercise-trackerUITests.xctest */;
+			productReference = B867513C2DB30336001F4929 /* Dane's AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B867511F2DB30335001F4929 /* Build configuration list for PBXProject "exercise-tracker" */;
+			buildConfigurationList = B867511F2DB30335001F4929 /* Build configuration list for PBXProject "Dane's App" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B86751232DB30335001F4929 /* exercise-tracker */,
-				B86751312DB30336001F4929 /* exercise-trackerTests */,
-				B867513B2DB30336001F4929 /* exercise-trackerUITests */,
+				B86751232DB30335001F4929 /* Dane's App */,
+				B86751312DB30336001F4929 /* Dane's AppTests */,
+				B867513B2DB30336001F4929 /* Dane's AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		B86751342DB30336001F4929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B86751232DB30335001F4929 /* exercise-tracker */;
+			target = B86751232DB30335001F4929 /* Dane's App */;
 			targetProxy = B86751332DB30336001F4929 /* PBXContainerItemProxy */;
 		};
 		B867513E2DB30336001F4929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B86751232DB30335001F4929 /* exercise-tracker */;
+			target = B86751232DB30335001F4929 /* Dane's App */;
 			targetProxy = B867513D2DB30336001F4929 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +478,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exercise-tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/exercise-tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dane's App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dane's App";
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Debug;
@@ -500,7 +500,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exercise-tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/exercise-tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dane's App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dane's App";
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Release;
@@ -550,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B867511F2DB30335001F4929 /* Build configuration list for PBXProject "exercise-tracker" */ = {
+		B867511F2DB30335001F4929 /* Build configuration list for PBXProject "Dane's App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B86751442DB30336001F4929 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B86751462DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-tracker" */ = {
+		B86751462DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B86751472DB30336001F4929 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B86751492DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-trackerTests" */ = {
+		B86751492DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B867514A2DB30336001F4929 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B867514C2DB30336001F4929 /* Build configuration list for PBXNativeTarget "exercise-trackerUITests" */ = {
+		B867514C2DB30336001F4929 /* Build configuration list for PBXNativeTarget "Dane's AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B867514D2DB30336001F4929 /* Debug */,
