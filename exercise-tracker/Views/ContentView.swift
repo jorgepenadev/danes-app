@@ -5,16 +5,19 @@ struct ContentView: View {
     @StateObject private var store = ExerciseRecordStore()
 
     var body: some View {
+        Text("Dane's Body Shop")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .padding(.top)
         NavigationStack {
             ScrollView {
-                VStack(spacing: 12) {
+                VStack(spacing: 15) {
                     ForEach(menuItems.indices, id: \.self) { index in
                         MenuRow(item: $menuItems[index], store: store)
                     }
                 }
-                .padding()
+                .padding(5)
             }
-            .navigationTitle("Dane's Body Shop")
         }
     }
 }

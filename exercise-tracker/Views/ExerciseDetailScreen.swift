@@ -15,6 +15,9 @@ struct ExerciseDetailScreen: View {
                 Button("Add") {
                     if let val = Int(input) {
                         store.addRecord(for: title, value: val)
+                            Task.detached {
+                                await saveRecord(exerciseType: title, ExerciseRecord(id: UUID(), date: Date(), value: Int(input) ?? 0))
+                            }
                         input = ""
                     }
                 }

@@ -12,7 +12,7 @@ class ExerciseRecordStore: ObservableObject {
     @Published var records: [String: [ExerciseRecord]] = [:]
 
     func addRecord(for exercise: String, value: Int) {
-        let new = ExerciseRecord(date: Date(), value: value)
+        let new = ExerciseRecord(id: UUID(), date: Date(), value: value)
         records[exercise, default: []].append(new)
     }
 
